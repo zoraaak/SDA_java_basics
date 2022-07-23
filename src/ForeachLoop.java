@@ -1,4 +1,4 @@
-public class ForLoop {
+public class ForeachLoop {
     public static void main(String[] args) {
         String[] dogs = new String[]{"Rex", "Scooby", "Szarik", "Sara"};
 
