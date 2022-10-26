@@ -5,6 +5,10 @@ public class Main1 {
     krolik1.changeName("Stanislaw");
     krolik1.viewName();
         System.out.println(krolik1.viewName());
-
+        krolik1.changeSoftness(false);
+        System.out.println(krolik1.viewSoftness());
+        krolik1.changeLenght(30);
+        System.out.println(krolik1.viewLenght());
+        System.out.println(krolik1.convert(30));
     }
 }
