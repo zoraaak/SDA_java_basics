@@ -7,12 +7,16 @@ public class Rabbit {
     Rabbit(int length, String name, boolean softness){
         this.length= length;
         this.name= name;
-        this. softness= softness;
+        this.softness= softness;
     }
     public void changeName(String name){
         this.name= name;
+    }
+    public String viewName(){
+        return name;
 
     }
+
 
 
 
